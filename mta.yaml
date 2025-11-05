@@ -36,7 +36,7 @@ modules:
     build-parameters:
       builder: custom
       commands:
-        - mvn clean package -DskipTests=true
+        - mvn clean install -DskipTests=true
       build-result: target/*-exec.jar
       ignore: ["node_modules/"]
 

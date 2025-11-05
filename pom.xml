@@ -51,6 +51,7 @@
         <version>3.14.0</version>
         <configuration>
           <release>${jdk.version}</release>
+          <maxmem>4096m</maxmem>
         </configuration>
       </plugin>
 
